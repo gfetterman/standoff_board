@@ -75,7 +75,7 @@
 <wire x1="27.61" y1="34.28" x2="0" y2="34.28" width="0" layer="20"/>
 <wire x1="0" y1="34.28" x2="0" y2="0" width="0" layer="20"/>
 <text x="1.016" y="29.972" size="1.016" layer="21" font="vector">Standoff
-v1.0</text>
+v1.1</text>
 <text x="21.844" y="31.496" size="1.016" layer="21" font="vector">GCF</text>
 </plain>
 <libraries>
@@ -1572,60 +1572,62 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R10" pad="2"/>
 <contactref element="S2" pad="T4"/>
 <wire x1="10.16" y1="19.304" x2="10.16" y2="17.78" width="0.1524" layer="1"/>
-<wire x1="10.16" y1="17.78" x2="11.43" y2="19.05" width="0.1524" layer="1"/>
-<wire x1="11.43" y1="19.05" x2="11.43" y2="27.432" width="0.1524" layer="1"/>
-<wire x1="11.43" y1="27.432" x2="10.414" y2="28.448" width="0.1524" layer="1"/>
 <wire x1="10.414" y1="28.448" x2="10.414" y2="30.7975" width="0.1524" layer="1"/>
 <wire x1="10.414" y1="30.7975" x2="10.4775" y2="30.861" width="0.1524" layer="1"/>
+<wire x1="10.16" y1="17.78" x2="11.938" y2="19.558" width="0.1524" layer="1"/>
+<wire x1="11.938" y1="19.558" x2="11.938" y2="26.924" width="0.1524" layer="1"/>
+<wire x1="11.938" y1="26.924" x2="10.414" y2="28.448" width="0.1524" layer="1"/>
 </signal>
 <signal name="A4POST">
 <contactref element="R4" pad="2"/>
 <contactref element="R11" pad="2"/>
 <contactref element="S2" pad="T5"/>
 <wire x1="13.97" y1="19.304" x2="13.97" y2="17.78" width="0.1524" layer="1"/>
-<wire x1="13.97" y1="17.78" x2="12.7" y2="19.05" width="0.1524" layer="1"/>
-<wire x1="12.7" y1="19.05" x2="12.7" y2="27.432" width="0.1524" layer="1"/>
-<wire x1="12.7" y1="27.432" x2="11.176" y2="28.956" width="0.1524" layer="1"/>
 <wire x1="11.176" y1="28.956" x2="11.176" y2="30.7975" width="0.1524" layer="1"/>
 <wire x1="11.176" y1="30.7975" x2="11.1125" y2="30.861" width="0.1524" layer="1"/>
+<wire x1="13.97" y1="17.78" x2="15.748" y2="19.558" width="0.1524" layer="1"/>
+<wire x1="15.748" y1="19.558" x2="15.748" y2="26.67" width="0.1524" layer="1"/>
+<wire x1="15.748" y1="26.67" x2="14.478" y2="27.94" width="0.1524" layer="1"/>
+<wire x1="14.478" y1="27.94" x2="12.192" y2="27.94" width="0.1524" layer="1"/>
+<wire x1="12.192" y1="27.94" x2="11.176" y2="28.956" width="0.1524" layer="1"/>
 </signal>
 <signal name="A5POST">
 <contactref element="R5" pad="2"/>
 <contactref element="R12" pad="2"/>
 <contactref element="S2" pad="T6"/>
 <wire x1="17.78" y1="17.78" x2="17.78" y2="19.304" width="0.1524" layer="1"/>
-<wire x1="17.78" y1="17.78" x2="15.748" y2="19.812" width="0.1524" layer="1"/>
-<wire x1="13.208" y1="28.194" x2="11.938" y2="29.464" width="0.1524" layer="1"/>
 <wire x1="11.938" y1="29.464" x2="11.938" y2="30.6705" width="0.1524" layer="1"/>
 <wire x1="11.938" y1="30.6705" x2="11.7475" y2="30.861" width="0.1524" layer="1"/>
-<wire x1="13.208" y1="28.194" x2="14.732" y2="28.194" width="0.1524" layer="1"/>
-<wire x1="14.732" y1="28.194" x2="15.748" y2="27.178" width="0.1524" layer="1"/>
-<wire x1="15.748" y1="27.178" x2="15.748" y2="19.812" width="0.1524" layer="1"/>
+<wire x1="17.78" y1="17.78" x2="19.558" y2="19.558" width="0.1524" layer="1"/>
+<wire x1="19.558" y1="19.558" x2="19.558" y2="26.924" width="0.1524" layer="1"/>
+<wire x1="19.558" y1="26.924" x2="18.034" y2="28.448" width="0.1524" layer="1"/>
+<wire x1="18.034" y1="28.448" x2="12.954" y2="28.448" width="0.1524" layer="1"/>
+<wire x1="12.954" y1="28.448" x2="11.938" y2="29.464" width="0.1524" layer="1"/>
 </signal>
 <signal name="A6POST">
 <contactref element="R6" pad="2"/>
 <contactref element="R13" pad="2"/>
 <contactref element="S2" pad="T7"/>
 <wire x1="21.59" y1="17.78" x2="21.59" y2="19.304" width="0.1524" layer="1"/>
-<wire x1="21.59" y1="17.78" x2="19.812" y2="19.558" width="0.1524" layer="1"/>
 <wire x1="13.208" y1="29.21" x2="12.446" y2="29.972" width="0.1524" layer="1"/>
 <wire x1="12.446" y1="29.972" x2="12.446" y2="30.7975" width="0.1524" layer="1"/>
 <wire x1="12.446" y1="30.7975" x2="12.3825" y2="30.861" width="0.1524" layer="1"/>
-<wire x1="19.812" y1="19.558" x2="19.812" y2="27.432" width="0.1524" layer="1"/>
-<wire x1="19.812" y1="27.432" x2="18.034" y2="29.21" width="0.1524" layer="1"/>
-<wire x1="18.034" y1="29.21" x2="13.208" y2="29.21" width="0.1524" layer="1"/>
+<wire x1="21.336" y1="29.21" x2="13.208" y2="29.21" width="0.1524" layer="1"/>
+<wire x1="21.59" y1="17.78" x2="23.368" y2="19.558" width="0.1524" layer="1"/>
+<wire x1="23.368" y1="19.558" x2="23.368" y2="27.178" width="0.1524" layer="1"/>
+<wire x1="23.368" y1="27.178" x2="21.336" y2="29.21" width="0.1524" layer="1"/>
 </signal>
 <signal name="A7POST">
 <contactref element="R7" pad="2"/>
 <contactref element="R14" pad="2"/>
 <contactref element="S2" pad="T8"/>
 <wire x1="25.4" y1="17.78" x2="25.4" y2="19.304" width="0.1524" layer="1"/>
-<wire x1="25.4" y1="17.78" x2="23.622" y2="19.558" width="0.1524" layer="1"/>
 <wire x1="13.462" y1="29.972" x2="13.0175" y2="30.4165" width="0.1524" layer="1"/>
 <wire x1="13.0175" y1="30.4165" x2="13.0175" y2="30.861" width="0.1524" layer="1"/>
-<wire x1="23.622" y1="19.558" x2="23.622" y2="27.432" width="0.1524" layer="1"/>
-<wire x1="23.622" y1="27.432" x2="21.082" y2="29.972" width="0.1524" layer="1"/>
-<wire x1="21.082" y1="29.972" x2="13.462" y2="29.972" width="0.1524" layer="1"/>
+<wire x1="24.13" y1="29.972" x2="13.462" y2="29.972" width="0.1524" layer="1"/>
+<wire x1="25.4" y1="17.78" x2="26.924" y2="19.304" width="0.1524" layer="1"/>
+<wire x1="26.924" y1="19.304" x2="26.924" y2="27.178" width="0.1524" layer="1"/>
+<wire x1="26.924" y1="27.178" x2="24.13" y2="29.972" width="0.1524" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="R14" pad="1"/>
